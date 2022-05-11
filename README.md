@@ -21,7 +21,10 @@ export GOPATH="your go path"
 make clean
 make
 ```
-
+## Docker build
+```
+docker build --force-rm -t prometheus-bot .
+```
 ## Usage
 
 1. Create Telegram bot with [BotFather](https://t.me/BotFather), it will return your bot token
